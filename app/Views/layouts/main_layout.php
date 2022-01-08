@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<?= base_url('assets/bootstrap.min.css') ?>">
+    <link rel="stylesheet" href="<?= base_url('assets/font-awesome-4.7.0/css/font-awesome.min.css')?>">
+    <title>TO DO LIST</title>
+    <style>
+        thead {
+            background-color: rgb(32, 28, 26);
+            color: white;
+        }
+        div {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <?= $this->renderSection('conteudo')?>
+    <hr>
+    <footer class="container">
+        <div class="row">
+            <div class="col text-center">
+                TODO List &copy; <?= date("Y") ?>
+            </div>
+        </div>
+    </footer>
+    <script src="<?=base_url("assets/bootstrap.bundle.min.js")?>"></script>
+    <script src="<?=base_url("assets/popper.min.js")?>"></script>
+
+</body>
+</html>
